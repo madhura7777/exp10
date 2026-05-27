@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5fff5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0b6623;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Top Header */
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Logo */
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+/* Main Title */
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Content Section */
+.content-section {
+    padding: 40px;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* Gallery Section */
+.gallery-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.gallery-section h2 {
+    font-family: 'Sofia', cursive;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* Gallery Images */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 180px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #0b6623;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
